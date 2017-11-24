@@ -13,28 +13,28 @@ option(OSSIA_LTO "Link-time optimizations. Fails on Windows." OFF)
 option(OSSIA_OSX_FAT_LIBRARIES "Build 32 and 64 bit fat libraries on OS X" OFF)
 option(OSSIA_OSX_RETROCOMPATIBILITY "Build for older OS X versions" OFF)
 option(OSSIA_MOST_STATIC "Try to make binaries that are mostly static" OFF)
-option(OSSIA_DATAFLOW "Dataflow features" ON)
+option(OSSIA_DATAFLOW "Dataflow features" OFF)
 option(OSSIA_SPLIT_DEBUG "Split debug info" ON)
 option(OSSIA_NO_DEBUG_INFO "No debug info" OFF)
 
 # Bindings :
 option(OSSIA_JAVA "Build JNI bindings" OFF)
-option(OSSIA_PD "Build PureData externals" ON)
+option(OSSIA_PD "Build PureData externals" OFF)
 option(OSSIA_MAX "Build Max/MSP externals" OFF)
 option(OSSIA_PYTHON "Build Python bindings" OFF)
-option(OSSIA_QT "Build Qt bindings. Implies websocket, serial, http." OFF)
-option(OSSIA_C "Build C bindings" ON)
-option(OSSIA_CPP "Build CPP bindings" ON)
+option(OSSIA_QT "Build Qt bindings. Implies websocket, serial, http." ON)
+option(OSSIA_C "Build C bindings" OFF)
+option(OSSIA_CPP "Build CPP bindings" OFF)
 
 # Protocols :
-option(OSSIA_PROTOCOL_MIDI "Enable MIDI protocol" ON)
-option(OSSIA_PROTOCOL_OSCQUERY "Enable OSCQuery protocol" ON)
-option(OSSIA_PROTOCOL_HTTP "Enable HTTP protocol" ON) # Requires Qt
+option(OSSIA_PROTOCOL_MIDI "Enable MIDI protocol" OFF)
+option(OSSIA_PROTOCOL_OSCQUERY "Enable OSCQuery protocol" OFF)
+option(OSSIA_PROTOCOL_HTTP "Enable HTTP protocol" OFF) # Requires Qt
 option(OSSIA_PROTOCOL_WEBSOCKETS "Enable WebSockets protocol" OFF) # Requires Qt
 option(OSSIA_PROTOCOL_SERIAL "Enable Serial port protocol" OFF) # Requires Qt
 option(OSSIA_PROTOCOL_PHIDGETS "Enable Phidgets protocol" OFF) # Requires Phidgets library
 option(OSSIA_DISABLE_QT_PLUGIN "Disable building of a Qt plugin" OFF)
-option(OSSIA_DNSSD "Enable DNSSD support" ON)
+option(OSSIA_DNSSD "Enable DNSSD support" OFF)
 set(CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH};${PROJECT_SOURCE_DIR}/CMake;${PROJECT_SOURCE_DIR}/CMake/cmake-modules;")
 
 include(Sanitize)

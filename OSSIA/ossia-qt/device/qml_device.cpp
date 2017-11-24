@@ -5,8 +5,6 @@
 #include <ossia/network/common/debug.hpp>
 #include <ossia/network/generic/generic_device.hpp>
 #include <ossia/network/local/local.hpp>
-#include <ossia/network/oscquery/oscquery_mirror.hpp>
-#include <ossia/network/oscquery/oscquery_server.hpp>
 #include <ossia/detail/logger.hpp>
 #include <QDebug>
 #include <QQmlContext>
@@ -183,6 +181,7 @@ bool qml_device::openOSC(QString ip, int localPort, int remotePort)
 
 bool qml_device::openOSCQueryServer(int wsPort, int oscPort)
 {
+    /*
   try
   {
     if (auto local = localProtocol())
@@ -207,11 +206,13 @@ bool qml_device::openOSCQueryServer(int wsPort, int oscPort)
   {
     ossia::logger().error("qml_device::openOSCQueryServer: error");
   }
+  ¨*/
   return false;
 }
 
 bool qml_device::openOSCQueryClient(QString address, int localOscPort)
 {
+    /*
   m_device.reset();
   try
   {
@@ -233,6 +234,7 @@ bool qml_device::openOSCQueryClient(QString address, int localOscPort)
   }
 
   setupLocal();
+  */
   return false;
 }
 

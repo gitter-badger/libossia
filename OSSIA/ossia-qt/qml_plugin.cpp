@@ -21,6 +21,7 @@ namespace qt
 
 void qml_plugin::reg(const char* uri)
 {
+    /*
   // See ossia_global_init
   qmlRegisterUncreatableType<qt::qml_val_type>(
       uri, 1, 0, "Type", "Value type");
@@ -50,6 +51,7 @@ void qml_plugin::reg(const char* uri)
   qmlRegisterType<qt::qml_binding>(uri, 1, 0, "BindingImpl");
   qmlRegisterType<qt::qml_callback>(uri, 1, 0, "CallbackImpl");
   qmlRegisterType<qt::qml_model_property>(uri, 1, 0, "Instances");
+  */
 }
 #if !defined(OSSIA_DISABLE_QT_PLUGIN)
 void qml_plugin::registerTypes(const char* uri)
