@@ -63,6 +63,17 @@ ossia_max& ossia_max::instance()
   return library_instance;
 }
 
+void ossia_max::start_registration(device* x, t_symbol*, long argc, t_atom* argv)
+{
+  ossia_max::instance().must_register = true;
+  x->register_children(x);
+}
+
+void ossia_max::end_registration(device* x, t_symbol*, long argc, t_atom* argv)
+{
+  ossia_max::instance().must_register = false;
+}
+
 namespace ossia
 {
 namespace max
@@ -110,6 +121,8 @@ template bool object_is_quarantined<view>(view*);
 
 void register_quarantinized()
 {
+  if(!ossia_max::instance().must_register)
+    return;
   for (auto model : model::quarantine().copy())
   {
     max_object_register<ossia::max::model>(

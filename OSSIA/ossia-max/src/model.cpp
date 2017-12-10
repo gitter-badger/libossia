@@ -129,6 +129,8 @@ void model::assist(model* x, void* b, long m, long a, char* s)
 
 bool model::register_node(const std::vector<ossia::net::node_base*>& nodes)
 {
+  if(!ossia_max::instance().must_register)
+    return false;
   bool res = do_registration(nodes);
 
   if (res)

@@ -179,6 +179,8 @@ t_max_err parameter::notify(parameter *x, t_symbol *s,
 
 bool parameter::register_node(const std::vector<ossia::net::node_base*>& nodes)
 {
+  if(!ossia_max::instance().must_register)
+    return false;
   bool res = do_registration(nodes);
   if (res)
   {

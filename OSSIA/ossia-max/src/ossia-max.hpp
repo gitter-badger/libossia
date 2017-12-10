@@ -90,6 +90,10 @@ public:
   ossia::safe_set<remote*> remote_quarantine;
   ossia::safe_set<attribute*> attribute_quarantine;
 
+  bool must_register{false};
+
+  static void start_registration(device* x, t_symbol*, long argc, t_atom* argv);
+  static void end_registration(device* x, t_symbol*, long argc, t_atom* argv);
 private:
   ossia_max();
   ~ossia_max();

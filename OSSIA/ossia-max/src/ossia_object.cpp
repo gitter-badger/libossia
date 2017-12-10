@@ -13,6 +13,9 @@ extern "C" void ossia_ossia_setup()
   class_addmethod(c, (method)device::expose, "expose", A_GIMME, 0);
   class_addmethod(c, (method)device::name, "name", A_GIMME, 0);
 
+  class_addmethod(c, (method)ossia_max::start_registration, "start_registration", A_GIMME, 0);
+  class_addmethod(c, (method)ossia_max::end_registration, "end_registration", A_GIMME, 0);
+
   class_register(CLASS_BOX, c);
 
   auto& ossia_library = ossia::max::ossia_max::instance();

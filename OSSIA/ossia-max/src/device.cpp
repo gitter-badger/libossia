@@ -123,6 +123,9 @@ void device::destroy(device* x)
 
 void device::register_children(device* x)
 {
+  if(!ossia_max::instance().must_register)
+    return;
+
   std::vector<object_base*> children_model = find_children_to_register(
       &x->m_object, get_patcher(&x->m_object), gensym("ossia.model"));
 
