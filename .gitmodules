@@ -1,71 +1,94 @@
 [submodule "CMake/cmake-modules"]
 	path = CMake/cmake-modules
 	url = https://github.com/OSSIA/cmake-modules
+	shallow = true
 [submodule "3rdparty/ModernMIDI"]
 	path = 3rdparty/ModernMIDI
 	url = https://github.com/jcelerier/ModernMIDI
+	shallow = true
 [submodule "3rdparty/variant"]
 	path = 3rdparty/variant
 	url = https://github.com/eggs-cpp/variant
+	shallow = true
 [submodule "3rdparty/oscpack"]
 	path = 3rdparty/oscpack
 	url = https://github.com/jcelerier/oscpack
+	shallow = true
 [submodule "3rdparty/nano-signal-slot"]
 	path = 3rdparty/nano-signal-slot
 	url = https://github.com/jcelerier/nano-signal-slot
+	shallow = true
 [submodule "3rdparty/rapidjson"]
 	path = 3rdparty/rapidjson
 	url = https://github.com/miloyip/rapidjson
+	shallow = true
 [submodule "3rdparty/spdlog"]
 	path = 3rdparty/spdlog
 	url = https://github.com/gabime/spdlog
+	shallow = true
 [submodule "3rdparty/brigand"]
 	path = 3rdparty/brigand
 	url = https://github.com/edouarda/brigand
+	shallow = true
 [submodule "3rdparty/jni_hpp"]
 	path = 3rdparty/jni_hpp
 	url = https://github.com/jcelerier/jni.hpp
+	shallow = true
 [submodule "3rdparty/fmt"]
 	path = 3rdparty/fmt
 	url = https://github.com/fmtlib/fmt
+	shallow = true
 [submodule "3rdparty/readerwriterqueue"]
 	path = 3rdparty/readerwriterqueue
+	shallow = true
 	url = https://github.com/cameron314/readerwriterqueue
 [submodule "3rdparty/hopscotch-map"]
 	path = 3rdparty/hopscotch-map
+	shallow = true
 	url = https://github.com/tessil/hopscotch-map.git
 [submodule "3rdparty/pure-data"]
 	path = 3rdparty/pure-data
 	#url = https://github.com/avilleret/pure-data.git
 	#url = https://git.code.sf.net/p/pure-data/pure-data
-  url = https://github.com/pure-data/pure-data.git
+    url = https://github.com/pure-data/pure-data.git
+	shallow = true
 [submodule "3rdparty/CicmWrapper"]
 	path = 3rdparty/CicmWrapper
 	url = https://github.com/avilleret/CicmWrapper.git
+	shallow = true
 [submodule "3rdparty/chobo-shl"]
 	path = 3rdparty/chobo-shl
 	url = https://github.com/Chobolabs/chobo-shl
+	shallow = true
 [submodule "3rdparty/GSL"]
 	path = 3rdparty/GSL
 	url = https://github.com/Microsoft/GSL
+	shallow = true
 [submodule "3rdparty/pybind11"]
 	path = 3rdparty/pybind11
 	url = https://github.com/pybind/pybind11
+	shallow = true
 [submodule "3rdparty/asio"]
 	path = 3rdparty/asio
 	url = https://github.com/chriskohlhoff/asio
+	shallow = true
 [submodule "3rdparty/websocketpp"]
 	path = 3rdparty/websocketpp
 	url = https://github.com/jcelerier/websocketpp
+	shallow = true
 [submodule "3rdparty/Servus"]
 	path = 3rdparty/Servus
 	url = https://github.com/jcelerier/Servus
+	shallow = true
 [submodule "3rdparty/libartnet"]
 	path = 3rdparty/libartnet
 	url = https://github.com/OpenLightingProject/libartnet
+	shallow = true
 [submodule "3rdparty/whereami"]
 	path = 3rdparty/whereami
 	url = https://github.com/gpakosz/whereami
+	shallow = true
 [submodule "3rdparty/max-sdk"]
 	path = 3rdparty/max-sdk
 	url = https://github.com/Cycling74/max-sdk.git
+	shallow = true
