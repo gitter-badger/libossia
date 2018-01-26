@@ -1,0 +1,28 @@
+var classossia_1_1net_1_1device__base =
+[
+    [ "device_base", "classossia_1_1net_1_1device__base.html#abf38e51ebf88ef08c8d0821e3df8db21", null ],
+    [ "device_base", "classossia_1_1net_1_1device__base.html#acc08e669833e330eb7a9c43295920d4a", null ],
+    [ "device_base", "classossia_1_1net_1_1device__base.html#a6fb17381739558a95f2bbd526954ff7d", null ],
+    [ "device_base", "classossia_1_1net_1_1device__base.html#acea3d9e4fd607d4ce21eafea7bf09080", null ],
+    [ "~device_base", "classossia_1_1net_1_1device__base.html#a5591b28e1332ec8e87d4a36338956dea", null ],
+    [ "operator=", "classossia_1_1net_1_1device__base.html#ab4e3c28d96de824f3d206f0a6f247163", null ],
+    [ "operator=", "classossia_1_1net_1_1device__base.html#ae4096525851f7b886b11df301145651e", null ],
+    [ "get_protocol", "classossia_1_1net_1_1device__base.html#af9547fa0c1b5f3877f730c5be4705445", null ],
+    [ "get_root_node", "classossia_1_1net_1_1device__base.html#a788c87a6323ca8e0f2811c08aadaff4e", null ],
+    [ "get_root_node", "classossia_1_1net_1_1device__base.html#a94906786ef040dd199151e6184cee4b9", null ],
+    [ "get_capabilities", "classossia_1_1net_1_1device__base.html#a13f386bb8753b8c9079963989e00c86d", null ],
+    [ "set_name", "classossia_1_1net_1_1device__base.html#a059fd6989ec1ac7301b517538088097a", null ],
+    [ "get_name", "classossia_1_1net_1_1device__base.html#a24c7e01a061c9ff852c32d4d3b325b79", null ],
+    [ "on_node_created", "classossia_1_1net_1_1device__base.html#a511544353c59654405d66c89bd7762c5", null ],
+    [ "on_node_removing", "classossia_1_1net_1_1device__base.html#af0c56fe6ab9ffeb6e30a1704478993ff", null ],
+    [ "on_node_renamed", "classossia_1_1net_1_1device__base.html#acee276d25fdf723273f131ff952931d5", null ],
+    [ "on_attribute_modified", "classossia_1_1net_1_1device__base.html#a0ce52378fa0e1b091481dc1117323733", null ],
+    [ "on_parameter_created", "classossia_1_1net_1_1device__base.html#a8f4581ed02f06af64d445cb78d36951e", null ],
+    [ "on_parameter_removing", "classossia_1_1net_1_1device__base.html#a7673686ecd315bfa03e12728bfdfc88f", null ],
+    [ "on_message", "classossia_1_1net_1_1device__base.html#af39f76b5ff36c53cb235d7ab28581478", null ],
+    [ "on_unhandled_message", "classossia_1_1net_1_1device__base.html#a6e6c6493c8dd0eaf407aeec2063f73fa", null ],
+    [ "on_add_node_requested", "classossia_1_1net_1_1device__base.html#a14547ee11c054ea526bb256abb5e2a62", null ],
+    [ "on_remove_node_requested", "classossia_1_1net_1_1device__base.html#a389a56f73e6cb989212eef922e13b163", null ],
+    [ "m_protocol", "classossia_1_1net_1_1device__base.html#a7ecb3a1dafc22e05abd80ac895479ce7", null ],
+    [ "m_capabilities", "classossia_1_1net_1_1device__base.html#a5e792ed823780246f5828f6a68c7fbd9", null ]
+];
